@@ -2,11 +2,25 @@ body {
   padding: 100px;
 }
 
+#foliocarousel {
+  padding: 10em 1em;
+  background-image: none;
+  text-align: center;
+}
+
+
+.colly {
+
+}
+
 @media screen and (max-width:768px) {
   body {
     padding: 50px;
   }
   .smallimg {
     float: left;
+  }
+  #foliocarousel {
+    padding: 20px;
   }
 }

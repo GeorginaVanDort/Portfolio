@@ -8,12 +8,14 @@ CAROUSEL
 
 #foliocarousel {
   background-image: none;
+  background-color: none;
   text-align: center;
   align-content: center;
   align-items:center;
   padding: 40px;
 }
 
+}
 .carousel-control.left, .carousel-control.right {
   background-image: none;
   background-color: none;
@@ -27,12 +29,11 @@ CAROUSEL
   bottom: 0;
 }
 
-.carousel-indicators .active {
 
-}
 .carousel-inner img {
   margin: auto;
 }
+
 .img-responsive {
   max-width: 200px;
   max-height: 500px;
@@ -43,6 +44,9 @@ CAROUSEL
 COLUMNS
 ================================ */
 
+.row {
+  align-items: center;
+}
 .colly {
 max-width: 400px;
 text-align: center;

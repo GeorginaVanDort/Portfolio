@@ -3,22 +3,21 @@ body {
 }
 
 #foliocarousel {
-  padding: 10em 1em;
   background-image: none;
   text-align: center;
 }
 
 
 .colly {
-max-width: 300px;
+max-width: 400px;
 text-align: center;
 }
 
 .smallimg {
   padding: 40px;
-  max-width: 300px;
   border-radius: 180px;
 }
+
 @media screen and (max-width:991px) {
   body {
     padding: 50px;

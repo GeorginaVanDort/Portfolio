@@ -2,6 +2,8 @@ body {
   padding: 100px;
 }
 
+font-family: 'Lily Script One', cursive;
+
 /* =============================
 CAROUSEL
 ================================ */
@@ -12,13 +14,14 @@ CAROUSEL
   text-align: center;
   align-content: center;
   align-items:center;
-  padding: 40px;
 }
 
-.carousel-indicators {
-  bottom: 0;
+.caro {
+  font-family: 'Lily Script One';
+  font-size: 60px;
+  text-align: center;
+  padding: 60px;
 }
-
 
 .carousel-inner img {
   margin: auto;
@@ -30,6 +33,11 @@ CAROUSEL
   border-radius: 1200px;
 }
 
+.carousel-indicators {
+  bottom: 0;
+  color: grey;
+}
+
 /* =============================
 COLUMNS
 ================================ */
@@ -37,9 +45,13 @@ COLUMNS
 .row {
   align-items: center;
 }
-.colly {
+.colly .col {
 max-width: 400px;
 text-align: center;
+font-family: 'Lily Script One';
+text-decoration: none;
+color: black;
+font-size: 30px;
 }
 
 .colly img {

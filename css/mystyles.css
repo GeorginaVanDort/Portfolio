@@ -2,7 +2,18 @@ body {
   padding: 100px;
 }
 
-font-family: 'Lily Script One', cursive;
+.para {
+  font-family: 'Work Sans 200', sans-serif;
+}
+
+h1 {
+  font-family: 'Lily Script One', cursive;
+}
+
+h2 {
+  font-family: 'Lily Script One', cursive;
+  font-size:
+}
 
 /* =============================
 CAROUSEL
@@ -46,14 +57,17 @@ COLUMNS
   align-items: center;
 }
 .colly .col {
-max-width: 400px;
-text-align: center;
-font-family: 'Lily Script One';
-text-decoration: none;
-color: black;
-font-size: 30px;
+  max-width: 400px;
+  text-align: center;
+  font-family: 'Lily Script One', cursive;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
 }
 
+a {
+  color: black;
+}
 .colly img {
   margin: auto;
   align-self: center;
@@ -74,16 +88,25 @@ PROJECTS
   border-radius: 45px;
   float: left;
   padding: 50px;
-  font-family:sans-serif;
-    }
+  font-family: 'Work Sans 200', sans-serif;
+  }
 
-.navbar {
-
+#alpaca {
+  background-image: url(../pet-blog/img/alpaca-hair.jpg);
+  background-size: contain;
 }
+/* =============================
+PROJECTS
+================================ */
 
 /* =============================
-MEDIA QUERIES
+NAVBAR
 ================================ */
+
+.navbar {
+  font-family: 'Lily Script One', cursive;
+  font-size: 20px;
+}
 
 @media screen and (max-width:991px) {
   body {

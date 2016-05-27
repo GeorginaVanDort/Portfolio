@@ -15,16 +15,6 @@ CAROUSEL
   padding: 40px;
 }
 
-}
-.carousel-control.left, .carousel-control.right {
-  background-image: none;
-  background-color: none;
-}
-
-.carousel-caption {
-  background: rgba(255, 0, 0, 0.5);
-}
-
 .carousel-indicators {
   bottom: 0;
 }
@@ -68,14 +58,16 @@ PROJECTS
 
 .animal {
   width: 300px;
+  border: 1px solid grey;
+  border-radius: 45px;
   float: left;
-  padding: 10px;
+  padding: 50px;
   font-family:sans-serif;
     }
 
-.sidebar{
-  float: right;
-    }
+.navbar {
+
+}
 
 /* =============================
 MEDIA QUERIES

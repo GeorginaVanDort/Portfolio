@@ -2,24 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="css/mystyles.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/mystyles.css" rel="stylesheet" type="text/css">
     <title>Portfolio</title>
   </head>
   <body>
-
 <!-- start carousel -->
     <div id="foliocarousel" class="carousel slide jumbotron">
       <div class="container">
-        <!-- indicators -->
+  <!-- indicators -->
         <ol class="carousel-indicators">
           <li class="active" data-target="#foliocarousel" data-slide-to="0"></li>
           <li data-target="#foliocarousel" data-slide-to="1"></li>
           <li data-target="#foliocarousel" data-slide-to="2"></li>
           <li data-target="#foliocarousel" data-slide-to="3"></li>
         </ol>
-<!-- end indicators -->
-<!-- carousel items -->
+  <!-- end indicators -->
+  <!-- carousel items -->
         <div class="carousel-inner">
           <div class="item active">
             <h1 class="caro">GVD</h1>
@@ -34,18 +33,32 @@
             <h1 class="caro">Designer</h1>
           </div>
         </div>
-              </div>
-<!-- end carousel items -->
       </div>
-<!-- carousel controls -->
+  <!-- end carousel items -->
+  <!-- carousel controls -->
       <a class="left carousel-control" href="#foliocarousel" role="button" data-slide="prev"><span class="icon-prev"></span>
       </a>
       <a class="right carousel-control" href="#foliocarousel" role="button" data-slide="next"><span class="icon-next"></span>
       </a>
-<!-- end carousel controls -->
+  <!-- end carousel controls -->
     </div>
 <!--end carousel-->
-
+<!--Columns Start-->
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="smallimg" src="#" alt="" />
+        <h2>About</h2>
+      </div>
+      <div class="col-sm-4">
+        <img class="smallimg" src="#" alt="" />
+        <h2>Projects</h2>
+      </div>
+      <div class="col-sm-4">
+        <img class="smallimg" src="#" alt="" />
+        <h2>Experience</h2>
+      </div>
+    </div>
+<!--Columns End-->
 <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>

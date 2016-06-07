@@ -1,6 +1,9 @@
 # Portfolio
 
-#### _A portfolio webpage. Friday 27th May 2016_
+#### _A portfolio webpage. Updated 6th June 2016
+
+**Warning! gh-pages link seems to be broken!**
+http://georginavandort.github.io/portfolio/
 
 #### By **Georgina Van Dort**
 

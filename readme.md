@@ -2,7 +2,6 @@
 
 #### _A portfolio webpage. Updated 6th June 2016
 
-**Warning! gh-pages link seems to be broken!**
 http://georginavandort.github.io/portfolio/
 
 #### By **Georgina Van Dort**
